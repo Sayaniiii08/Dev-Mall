@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DevMall - Explore Tech Careers</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <div class="logo-container">
+  <img src="Dev.png" alt="DevMall Logo" class="logo" />
+  </div>
+
+
+    <!-- Search Bar -->
+    <input type="text" id="search" placeholder="Search companies..." />
+  </header>
+
+  <!-- Filter Section -->
+  <section class="filters">
+    <select id="experience">
+      <option value="">Experience</option>
+      <option value="fresher">Fresher</option>
+      <option value="student">Student</option>
+      <option value="experienced">Experienced</option>
+    </select>
+
+    <select id="location">
+      <option value="">Location</option>
+      <option value="india">India</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <select id="mode">
+      <option value="">Mode</option>
+      <option value="remote">Remote</option>
+      <option value="on-site">On-site</option>
+      <option value="wfh">Work From Home</option>
+    </select>
+  </section>
+
+  <!-- Job Listings -->
+  <main id="job-listings"></main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 DevMall. Built by You.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+
+ <div id="job-links" class="job-container"></div>
+
+<script>
+  fetch('/api/jobs')
+    .then(res => res.json())
+    .then(data => {
+      const container = document.getElementById('job-links');
+      data.forEach(company => {
+        const link = document.createElement('a');
+        link.href = company.url;
+        link.innerText = company.name;
+        link.target = '_blank';
+        link.className = 'company-link';
+        container.appendChild(link);
+      });
+    })
+    .catch(error => console.error('Fetch error:', error));
+</script>
+
+<div id="job-links" class="job-container"></div>
+
+</body>
+</html>
