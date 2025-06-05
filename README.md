@@ -60,12 +60,10 @@ http://localhost:3000
 <p align="center"> <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=22&duration=3000&pause=1000&color=F79A43&center=true&width=435&lines=🚧+DevMall+Preview+Coming+Soon...+🚀" alt="Coming Soon Animation"/> </p>
 
 🧠 Future Scope
+
 ✅ Add real-time job API integrations
-
 📝 Launch DevMall Blog section for tech news
-
 🔔 Email/job alerts system
-
 🌍 Deploy to Vercel or Render (free tiers)
 
 🧑‍💻 Author
