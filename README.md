@@ -62,11 +62,16 @@ http://localhost:3000
 🧠 Future Scope
 
 ✅ Add real-time job API integrations
+
 📝 Launch DevMall Blog section for tech news
+
 🔔 Email/job alerts system
+
 🌍 Deploy to Vercel or Render (free tiers)
 
+
 🧑‍💻 Author
+
 👩‍💻 Sayani Mondal
 💬 “Building one tech brick at a time.”
 
@@ -74,7 +79,9 @@ http://localhost:3000
 You can also deploy this project to GitHub Pages, Vercel, or Netlify.
 
 ⚖️ License
+
 This project is licensed for educational and portfolio purposes.
+
 Contact for commercial or collaborative use.
 
-<p align="center"> 💡 “Tech careers made accessible — that’s the DevMall vision.” 💡 </p> ```
+<p align="center"> 💡 “Tech careers made accessible — that’s the DevMall vision.” 💡 </p> 
