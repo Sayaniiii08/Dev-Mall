@@ -54,6 +54,7 @@ node server.js
 
 # 4️⃣ Open the app in your browser
 http://localhost:3000
+```
 
 📸 Preview
 <p align="center"> <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=22&duration=3000&pause=1000&color=F79A43&center=true&width=435&lines=🚧+DevMall+Preview+Coming+Soon...+🚀" alt="Coming Soon Animation"/> </p>
